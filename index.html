@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibrosChechos</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<header class="header">
+    <div class="header-1">
+        <a href="#" class="logo"> <i class="fas fa-book"></i> chechos </a>
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Introduzca el nombre del producto, título, autor..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+    <div class="header-2">   
+        <nav class="navbar">
+            <a href="#home">inicio</a>
+            <a href="#featured">novedades</a>
+            <a href="#arrivals">categorias</a>
+            <a href="#reviews">comentarios</a>
+            <a href="#blogs">blog</a>
+        </nav>
+    </div>
+</header>
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div>
+    <form action="" id="form">
+        <h3>Iniciar Sesion</h3>
+        <span>Correo Electronico</span>
+        <input type="email" name="" class="box" placeholder="ingresa tu correo" id="email">
+        <span>Constraseña</span>
+        <input type="password" name="" class="box" placeholder="ingresa tu contraseña" id="password">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> Recuerdame</label>
+        </div>
+        <input type="submit" value="Iniciar Sesión" class="btn">
+        <p class="warnings" id="warnings"></p>
+        <p>olvido su contraseña ? <a href="#">click aqui</a></p>
+        <p>No tienes una cuenta ? <a href="#">crea aqui</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+    <div class="row">
+        <div class="content">
+            <a href="#" class="btn">comprar ahora</a>
+        </div>
+    </div>
+</section>
+
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>Envio gratis</h3>
+            <p>compras superiores a S/100</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>pago seguro</h3>
+            <p>100% seguridad</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>devoluciones</h3>
+            <p>plazo de 10 dias</p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 soporte</h3>
+            <p>llamanos con toda confianza</p>
+        </div>
+    </div>
+</section>
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>novedades</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-1.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>EL CASO ALASKA SANDERS</h3>
+                    <div class="price">S/ 83.30 <span>S/ 119.00</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-2.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>PEQUEÑO BASTARDO</h3>
+                    <div class="price">S/ 55.00 <span>S/ 102.00</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-3.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>CHOCOLATE SIN GRASA</h3>
+                    <div class="price">S/ 56.00 <span>S/ 67.20</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-4.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>PURA PASIÓN</h3>
+                    <div class="price">S/ 69.00 <span>S/ 82.80</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-5.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>REVOLUCIÓN</h3>
+                    <div class="price">S/ 69.30 <span>S/ 99.00</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-6.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>LOS CONSERVADORES</h3>
+                    <div class="price">S/ 55.30 <span>S/ 79.00</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-7.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>UNA HISTORIA BREVE, EXTRAÑA Y BRUTAL</h3>
+                    <div class="price">S/ 69.30 <span>S/ 99.00</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-8.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>TIEMPOS VIOLENTOS</h3>
+                    <div class="price">S/ 90.00 <span>S/ 108.00</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-9.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>RUSIA</h3>
+                    <div class="price">S/ 125.00 <span>S/ 150.00</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/novedad-10.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>HASTA PERDER EL ALIENTO</h3>
+                    <div class="price">S/ 85.00 <span>S/ 102.00</span></div>
+                    <a href="#" class="btn">añadir al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+<section class="newsletter">
+    <form action="">
+        <h3>subscribase para recibir las ultimas actualizaciones</h3>
+        <input type="email" name="" placeholder="ingresa tu correo" id="" class="box">
+        <input type="submit" value="subscribirse" class="btn">
+    </form>
+</section>
+
+<section class="arrivals" id="arrivals">
+    <h1 class="heading"> <span>Ficción</span> </h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Crímenes en Lima 2</h3>
+                    <div class="price">S/ 34.93 <span>S/ 49.90</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Nosotros en la Luna</h3>
+                    <div class="price">S/ 47.92 <span>S/ 59.90</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>El Psicoanalista</h3>
+                    <div class="price">S/ 47.2 <span>S/ 59.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>El señor de los anillos. 1</h3>
+                    <div class="price">S/ 19.50 <span>S/ 39.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Los Siete Maridos de Evelyn Hugo</h3>
+                    <div class="price">S/ 76.00 <span>S/ 95.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>EL ESPIA DEL INCA</h3>
+                    <div class="price">S/ 103.20 <span>S/ 129.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Roma soy yo</h3>
+                    <div class="price">S/ 79.20 <span>S/ 99.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>El viejo y el mar</h3>
+                    <div class="price">S/ 31.20 <span>S/ 39.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>El club de los psicópatas</h3>
+                    <div class="price">S/ 79.20 <span>S/ 99.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ficcion-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mi policía</h3>
+                    <div class="price">S/ 79.20 <span>S/ 99.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br>
+    <h1 class="heading"> <span>Infantil</span> </h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Los Compas vs. hackers</h3>
+                    <div class="price">S/ 71.92 <span>S/ 89.90</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mikecrack y la Estrella Maldita</h3>
+                    <div class="price">S/ 71.92 <span>S/ 89.90</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Perdido en la monstruociudad</h3>
+                    <div class="price">S/ 52.43 <span>S/ 74.90</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Los Compas y el Diamantito Legendario</h3>
+                    <div class="price">S/ 63.99 <span>S/ 79.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>365 cuentos con finales felices</h3>
+                    <div class="price">S/ 47.99 <span>S/ 59.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>HP2. CAMARA SECRETA TD</h3>
+                    <div class="price">S/ 71.20 <span>S/ 89.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Los compas y la entidad.exe</h3>
+                    <div class="price">S/ 63.99 <span>S/ 79.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Vicnix. En la ciudad secreta</h3>
+                    <div class="price">S/ 63.20 <span>S/ 79.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bobicraft y el tesoro poderoso</h3>
+                    <div class="price">S/ 63.20 <span>S/ 79.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/infantil-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>CUENTOS DE BUENAS NOCHES PARA NIÑAS REBELDES</h3>
+                    <div class="price">S/ 63.99 <span>S/ 79.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br>
+    <h1 class="heading"> <span>Juvenil</span> </h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Heartstopper</h3>
+                    <div class="price">S/ 55.20 <span>S/ 69.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>PERCY JACKSON, EL LADRON DEL RAYO </h3>
+                    <div class="price">S/ 63.20 <span>S/ 79.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Eleanor y Park</h3>
+                    <div class="price">S/ 63.20 <span>S/ 79.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ciudades de humo</h3>
+                    <div class="price">S/ 79.92 <span>S/ 99.90</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>STILL WITH YOU</h3>
+                    <div class="price">S/ 71.99 <span>S/ 89.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>AL FINAL MUEREN LOS DOS</h3>
+                    <div class="price">S/ 64.00 <span>S/ 80.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Érase una vez un corazón roto</h3>
+                    <div class="price">S/ 64.80 <span>S/ 80.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Antes de Diciembre</h3>
+                    <div class="price">S/ 71.20 <span>S/ 89.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Fleur</h3>
+                    <div class="price">S/ 71.20 <span>S/ 89.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/juvenil-10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Las alas de Sophie</h3>
+                    <div class="price">S/ 39.99 <span>S/ 49.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br>
+    <h1 class="heading"> <span>Bienestar y Crecimiento Personal</span> </h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-1.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>SECRETOS DE LA MENTE MILLONARIA</h3>
+                    <div class="price">S/ 68.00 <span>S/ 81.60</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-2.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>EL CLUB DE LAS 5 DE LA MAÑANA</h3>
+                    <div class="price">S/ 34.30 <span>S/ 49.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-3.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>EL CABALLERO DE LA ARMADURA OXIDADA</h3>
+                    <div class="price">S/ 34.50 <span>S/ 41.40</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-4.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>COMO HACER QUE TE PASEN COSAS BUENAS</h3>
+                    <div class="price">S/ 67.92 <span>S/ 84.90</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-5.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>CREE EN TI</h3>
+                    <div class="price">S/ 55.20 <span>S/ 69.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-6.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>LAS DIOSAS NUNCA ENVEJECEN</h3>
+                    <div class="price">S/ 72.00 <span>S/ 90.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-7.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>ENCUENTRA TU PERSONA VITAMINA</h3>
+                    <div class="price">S/ 79.92 <span>S/ 99.90</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-8.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>LA CIENCIA DEL ÉXITO</h3>
+                    <div class="price">S/ 48.3.00 <span>S/ 69.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-9.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>DISCIPLINA SIN LAGRIMAS</h3>
+                    <div class="price">S/ 34.30 <span>S/ 49.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ayuda-10.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>LAS MUJERES QUE AMAN DEMASIADO</h3>
+                    <div class="price">S/ 34.30 <span>S/ 49.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br>
+    <h1 class="heading"> <span>Comics y Mangas</span> </h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-1.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>KAIJU NO. 8, VOL. 1</h3>
+                    <div class="price">S/ 48.45 <span>S/ 51.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-2.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>SPY X FAMILY, VOL. 6</h3>
+                    <div class="price">S/ 48.45 <span>S/ 51.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-3.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>MANGA EN ACCIÓN</h3>
+                    <div class="price">S/ 93.10 <span>S/ 98.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-4.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>CHAINSAW MAN 1</h3>
+                    <div class="price">S/ 54.15 <span>S/ 57.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-5.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>THE SHONEN JUMP GUIDE TO MAKING MANGA</h3>
+                    <div class="price">S/ 81.70 <span>S/ 86.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-6.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>FULLMETAL ALCHEMIST KANZENBAN 02</h3>
+                    <div class="price">S/ 72.30 <span>S/ 76.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-7.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>SEXY COSPLAY DOLL 02</h3>
+                    <div class="price">S/ 57.00 <span>S/ 60.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-8.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>KOMI-SAN-NO PUEDE COMUNICARSE 06</h3>
+                    <div class="price">S/ 90.25 <span>S/ 95.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-9.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>KAGUYA SAMA - LOVE IS WAR 01</h3>
+                    <div class="price">S/ 52.25 <span>S/ 55.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cym-10.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>POKEMON 01 - ROJO VERDE Y AZUL 1</h3>
+                    <div class="price">S/ 73.15 <span>S/ 77.00</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="deal">
+    <div class="content">
+        <h3>Cyber WOW</h3>
+        <h1>HASTA 20% DE DESCUENTO</h1>
+        <p>Contamos con descuento insuperables en toda nuestra tienda, aprovecha este Cyber WOW al amximo con nosotros.</p>
+        <a href="#" class="btn">Comprar ahora</a>
+    </div>
+
+    <div class="image">
+        <img src="image/deal-img.jpg" alt="">
+    </div>
+</section>
+
+<section class="reviews" id="reviews">
+    <h1 class="heading"> <span>Comentarios</span> </h1>
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="image/persona-1.jpg" alt="">
+                <h3>albert einstein</h3>
+                <p>Dos cosas son infinitas: la estupidez humana y el universo; y no estoy seguro de lo segundo, pero que buena tienda.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/persona-2.jpeg" alt="">
+                <h3>faker</h3>
+                <p>안녕하지만 좋은 가게, 믿음으로 다음 월드컵에서 우승.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/persona-3.jpg" alt="">
+                <h3>susy diaz</h3>
+                <p>Vive la vida y no dejes que la vida te viva, y que bonita tienda.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/persona-4.png" alt="">
+                <h3>pedro castillo</h3>
+                <p>El pollo, ¿está vivo o muerto?; y la respuesta es que buena tienda.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/persona-5.jpg" alt="">
+                <h3>El chavo del 8</h3>
+                <p>eso eso eso que buena tienda eso eso eso.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/persona-6.jpg" alt="">
+                <h3>donald trump</h3>
+                <p>hello, but what a good store, with faith I win the next application.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blogs" id="blogs">
+    <h1 class="heading"> <span>blog</span> </h1>
+    <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/noticia-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Las ventajas de leer libros en formato pequeño.</h3>
+                    <p>Que la lectura sea un hábito enriquecedor cuyos beneficios son tanto intelectuales como emocionales, nadie podría negarlo a estas alturas.</p>
+                    <a href="#" class="btn">Leer màs</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/noticia-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cuatro autores que nacieron en noviembre</h3>
+                    <p>Ciro Alegría nació el 04 de noviembre de 1905 en Samtimbamba, La Libertad. Fue escritor, periodista y político peruano es además uno de los representantes de la novela indigenista.</p>
+                    <a href="#" class="btn">Leer màs</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/noticia-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Leyendo a Elízabet Benavent</h3>
+                    <p>Elízabet Benavent, de sus libros ya tenemos en formato streaming una película y una serie en Netflix y cada libro que publica es un éxito de ventas. Si no lo conoces aún te comentaremos un poco de ella.</p>
+                    <a href="#" class="btn">Leer màs</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/noticia-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Conversando con Cristian Alarcón</h3>
+                    <p>En la entrevista Alarcón nos cuenta que esta novela la escribe en el confinamiento de la pandemia y aunque él estaba trabajando en otro proyecto, ocurre un imprevisto que le cambia el rumbo a su propia historia y decide darle rienda a esta historia.</p>
+                    <a href="#" class="btn">Leer màs</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/noticia-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Todo Lo Que Debes Saber Sobre El Uso De Un Diccionario Bilingüe</h3>
+                    <p>Muchos términos tienen más de un posible equivalente en el otro idioma, incluyendo sinónimos y diferentes según el contexto, por lo que a veces puede ser complicado encontrar la traducción. </p>
+                    <a href="#" class="btn">Leer màs</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Nuestras tiendas</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Lima </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Arequipa </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Trujillo </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Callao </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Ica </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Peruzuela </a>
+        </div>
+        <div class="box">
+            <h3>Categorias</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Inicio </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Novedades </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Categorias </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Valoraciones </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blog </a>
+        </div>
+        <div class="box">
+            <h3>Polìtica</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Políticas de privacidad </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Políticas de Cookies </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Términos y condiciones </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Preguntas frecuentes </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Libro de Reclamacinoes </a>
+        </div>
+        <div class="box">
+            <h3>Contacto</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +51-912345678 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +51-987654321 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> librerias_chechos@chechos.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    <div class="credit"> Sergio Dº 2022 <span>© Librería Chechos</span> | Todos los Derechos Reservados. </div>
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
